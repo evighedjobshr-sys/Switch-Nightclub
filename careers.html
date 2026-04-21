@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Switch Careers</title>
+  <meta name="description" content="Careers at Switch Nightclub. Apply for bar staff, VIP host, promotions and operations roles."/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+<div id="cursor"></div>
+<div id="prog"></div>
+<nav id="nav" class="on">
+  <a href="index.html#home" class="nav-logo">SWITCH</a>
+  <div class="nav-links" id="navLinks">
+    <a href="index.html#events">Events</a>
+    <a href="index.html#services">Book Events</a>
+    <a href="index.html#about">About</a>
+    <a href="index.html#gallery">Gallery</a>
+    <a href="careers.html">Careers</a>
+    <a href="index.html#contact">Contact</a>
+  </div>
+  <div class="nav-actions">
+    <a class="nav-cta link-btn" href="#apply">Apply Now</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+<div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+  <div class="mobile-menu-inner">
+    <a href="index.html#events">Events</a>
+    <a href="index.html#services">Book Events</a>
+    <a href="index.html#about">About</a>
+    <a href="index.html#gallery">Gallery</a>
+    <a href="careers.html">Careers</a>
+    <a href="index.html#contact">Contact</a>
+  </div>
+</div>
+<section class="page-hero">
+  <div class="page-hero-inner">
+    <p class="page-kicker">/ Join the Switch Team</p>
+    <h1 class="page-title">Build the <em>night</em> with us.</h1>
+    <p class="page-sub">We are hiring confident, energetic and professional team members for event nights, VIP service and front-of-house operations. This page is dedicated to staff applications and separate from customer event bookings.</p>
+  </div>
+</section>
+<section class="s-dark">
+  <div class="careers-wrap">
+    <div class="careers-panel">
+      <p class="eyebrow">/ Open Roles</p>
+      <h2 class="sec-t">Now Hiring</h2>
+      <div class="careers-list">
+        <div class="role-card">
+          <h3>Bar Staff</h3>
+          <p>Fast-paced service roles for busy event nights. Experience with nightlife or hospitality is preferred.</p>
+          <div class="role-meta"><span>Part Time</span><span>Night Shifts</span><span>London</span></div>
+        </div>
+        <div class="role-card">
+          <h3>VIP Host / Hostess</h3>
+          <p>Welcome guests, manage premium table experiences and support high-end bookings with confidence and style.</p>
+          <div class="role-meta"><span>Guest Facing</span><span>Weekends</span><span>Premium Service</span></div>
+        </div>
+        <div class="role-card">
+          <h3>Security & Door Team</h3>
+          <p>Maintain a safe, professional entry experience and support venue operations throughout event nights.</p>
+          <div class="role-meta"><span>Licensed</span><span>Evenings</span><span>Experienced</span></div>
+        </div>
+        <div class="role-card">
+          <h3>Promotions Team</h3>
+          <p>Help market event nights, attract the right crowd and build Switch culture online and on the ground.</p>
+          <div class="role-meta"><span>Flexible</span><span>Social</span><span>Events</span></div>
+        </div>
+      </div>
+    </div>
+    <div class="careers-form" id="apply">
+      <p class="eyebrow">/ Staff Application</p>
+      <h2 class="sec-t" style="font-size:clamp(2rem,4vw,3rem);margin-bottom:1.5rem;">Apply Here</h2>
+      <form>
+        <div class="form-grid">
+          <div class="input-group"><label>First Name</label><input type="text" placeholder="First name"></div>
+          <div class="input-group"><label>Last Name</label><input type="text" placeholder="Last name"></div>
+        </div>
+        <div class="form-grid">
+          <div class="input-group"><label>Email</label><input type="email" placeholder="you@example.com"></div>
+          <div class="input-group"><label>Phone</label><input type="tel" placeholder="+44"></div>
+        </div>
+        <div class="input-group"><label>Role Applying For</label>
+          <select>
+            <option>Bar Staff</option>
+            <option>VIP Host / Hostess</option>
+            <option>Security & Door Team</option>
+            <option>Promotions Team</option>
+            <option>Other</option>
+          </select>
+        </div>
+        <div class="input-group"><label>Experience</label><textarea placeholder="Tell us about your experience, availability and why you want to join Switch."></textarea></div>
+        <button type="submit" class="btn-g">Submit Application</button>
+        <p class="form-note">This page is ready on the front end. To receive submissions, connect the form to Formspree, Netlify Forms or your email backend.</p>
+      </form>
+    </div>
+  </div>
+</section>
+<footer>
+  <div class="ft-top">
+    <div class="ft-brand"><div class="ft-logo">SWITCH</div><p>UK's premium nightlife venue.<br>Afrobeats. Weddings. Private Events.</p></div>
+    <div class="ft-col"><p>Navigate</p><a href="index.html">Home</a><a href="index.html#events">Events</a><a href="index.html#services">Book Events</a><a href="careers.html">Careers</a></div>
+    <div class="ft-col"><p>Apply</p><a href="#apply">Application Form</a><a href="mailto:hello@switchnightclub.co.uk">Email Hiring Team</a></div>
+    <div class="ft-col"><p>Follow</p><a href="#">Instagram</a><a href="#">TikTok</a><a href="#">Facebook</a><a href="#">YouTube</a></div>
+  </div>
+  <div class="ft-bot"><span>2026 © Switch Nightclub. All rights reserved.</span><span>London, UK</span></div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>

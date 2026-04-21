@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Switch Nightclub</title>
+  <meta name="description" content="Switch Nightclub is a premium UK nightlife destination for Afrobeats events, weddings, private hire and VIP experiences."/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<div id="cursor"></div>
+<div id="prog"></div>
+
+<nav id="nav">
+  <a href="#home" class="nav-logo">SWITCH</a>
+  <div class="nav-links" id="navLinks">
+    <a href="#events">Events</a>
+    <a href="#services">Book Events</a>
+    <a href="#about">About</a>
+    <a href="#gallery">Gallery</a>
+    <a href="careers.html">Careers</a>
+    <a href="#contact">Contact</a>
+  </div>
+  <div class="nav-actions">
+    <a class="nav-cta link-btn" href="#contact">Get In Touch</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+  <div class="mobile-menu-inner">
+    <a href="#events">Events</a>
+    <a href="#services">Book Events</a>
+    <a href="#about">About</a>
+    <a href="#gallery">Gallery</a>
+    <a href="careers.html">Careers</a>
+    <a href="#contact">Contact</a>
+  </div>
+</div>
+
+<div id="intro-wrap">
+  <div id="intro">
+    <canvas id="introCanvas"></canvas>
+    <div class="intro-vignette"></div>
+
+    <div class="intro-top">
+      <span class="intro-tag" id="introTag">/ United Kingdom · Est. 2015</span>
+    </div>
+
+    <div class="intro-title-wrap" id="introTitle">
+      <div class="title-clip top-clip">
+        <div class="title-line">WHERE THE</div>
+      </div>
+      <div class="title-clip bot-clip">
+        <div class="title-line gold-line">NIGHT BEGINS.</div>
+      </div>
+    </div>
+
+    <div class="intro-bottom">
+      <span class="intro-sub" id="introSub">Afrobeats · Weddings · Private Events</span>
+      <div class="scroll-ind" id="scrollInd">
+        <span>Scroll</span>
+        <div class="scroll-bar"><div class="scroll-fill"></div></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="main">
+  <div class="ticker">
+    <div class="ticker-track">
+      <span>Afrobeats Fridays</span><b>·</b>
+      <span>Wedding Packages</span><b>·</b>
+      <span>Private Hire</span><b>·</b>
+      <span>UK Premium Nightlife</span><b>·</b>
+      <span>VIP Tables</span><b>·</b>
+      <span>Afrobeats Fridays</span><b>·</b>
+      <span>Wedding Packages</span><b>·</b>
+      <span>Private Hire</span><b>·</b>
+      <span>UK Premium Nightlife</span><b>·</b>
+      <span>VIP Tables</span><b>·</b>
+    </div>
+  </div>
+
+  <section id="home" class="s-home">
+    <div class="grid-bg"></div>
+    <div class="home-glow"></div>
+    <div class="home-inner">
+      <p class="eyebrow sr">/ London, United Kingdom</p>
+      <h2 class="home-h">
+        <span class="clip-line sr" style="--d:0s"><em>The Night</em></span>
+        <span class="clip-line sr" style="--d:.12s">Starts Here.</span>
+      </h2>
+      <p class="home-sub sr" style="--d:.22s">Switch is the UK's premium destination for Afrobeats culture, unforgettable weddings, exclusive private events and elevated VIP nights.</p>
+      <div class="home-btns sr" style="--d:.32s">
+        <a class="btn-g link-btn" href="#events">Upcoming Events</a>
+        <a class="btn-o link-btn" href="#services">Book an Event</a>
+      </div>
+      <div class="home-stats sr" style="--d:.46s">
+        <div class="hs"><b>500+</b><span>Capacity</span></div>
+        <div class="hsd"></div>
+        <div class="hs"><b>5★</b><span>Rated</span></div>
+        <div class="hsd"></div>
+        <div class="hs"><b>100+</b><span>Events/yr</span></div>
+        <div class="hsd"></div>
+        <div class="hs"><b>10yr</b><span>Est.</span></div>
+      </div>
+    </div>
+    <div class="h-rule sr" style="--d:.55s"></div>
+  </section>
+
+  <section id="events" class="s-dark">
+    <div class="sec-hd">
+      <p class="eyebrow sr">/ Upcoming Events</p>
+      <h2 class="sec-t sr" style="--d:.08s">What's On</h2>
+    </div>
+    <div class="ev-list">
+      <div class="ev-row sr" style="--d:.05s">
+        <span class="ev-n">01</span>
+        <div class="ev-info"><h3>Afrobeats Friday</h3><p>Fri 25 Apr 2026 · 10PM–4AM · Switch Main Room</p></div>
+        <span class="ev-tag">Afrobeats</span>
+        <a class="ev-btn link-btn" href="#contact">Book Now</a>
+      </div>
+      <div class="ev-row sr" style="--d:.12s">
+        <span class="ev-n">02</span>
+        <div class="ev-info"><h3>Naija Vibes Night</h3><p>Sat 3 May 2026 · 9PM–3AM · Switch Main Room</p></div>
+        <span class="ev-tag">Afrobeats · Amapiano</span>
+        <a class="ev-btn link-btn" href="#contact">Book Now</a>
+      </div>
+      <div class="ev-row sr" style="--d:.19s">
+        <span class="ev-n">03</span>
+        <div class="ev-info"><h3>Afrobeats Friday</h3><p>Fri 16 May 2026 · 10PM–4AM · Switch Main Room</p></div>
+        <span class="ev-tag">Afrobeats</span>
+        <a class="ev-btn link-btn" href="#contact">Book Now</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="services" class="s-blk">
+    <div class="sec-hd">
+      <p class="eyebrow sr">/ Event & Venue Bookings</p>
+      <h2 class="sec-t sr" style="--d:.08s">Book Events</h2>
+    </div>
+    <div class="acc-list">
+
+      <div class="acc-row sr">
+        <div class="acc-hd"><span class="acc-n">01</span><h3>Wedding Packages</h3><span class="acc-meta">Venue · Catering · AV</span><span class="acc-plus">+</span></div>
+        <div class="acc-bd"><div class="acc-in">
+          <div class="acc-txt"><p>Bespoke wedding reception packages for up to 500 guests. Full catering, lighting, AV and a dedicated coordinator.</p>
+          <ul><li>Up to 500 guests</li><li>Full catering packages</li><li>Custom lighting & décor</li><li>Dedicated coordinator</li></ul></div>
+          <div class="acc-img" style="background-image:url('one.jpeg')"></div>
+        </div></div>
+      </div>
+
+      <div class="acc-row sr" style="--d:.07s">
+        <div class="acc-hd"><span class="acc-n">02</span><h3>Private Bookings</h3><span class="acc-meta">Birthdays · Corporate · Celebrations</span><span class="acc-plus">+</span></div>
+        <div class="acc-bd"><div class="acc-in">
+          <div class="acc-txt"><p>Exclusive private hire for birthdays, corporate events, and celebrations. Full venue or section hire.</p>
+          <ul><li>Full or section hire</li><li>Bespoke theming</li><li>Private bar & bottle service</li><li>DJ booth & sound system</li></ul></div>
+          <div class="acc-img" style="background-image:url('3.jpeg')"></div>
+        </div></div>
+      </div>
+
+      <div class="acc-row sr" style="--d:.14s">
+        <div class="acc-hd"><span class="acc-n">03</span><h3>VIP Tables</h3><span class="acc-meta">Bottle Service · Dedicated Host</span><span class="acc-plus">+</span></div>
+        <div class="acc-bd"><div class="acc-in">
+          <div class="acc-txt"><p>Reserve a premium VIP table on any event night. Bottle service, dedicated host, best seats in the house.</p>
+          <ul><li>Premium table positions</li><li>Dedicated personal host</li><li>Bottle & mixer packages</li><li>Every event night</li></ul></div>
+          <div class="acc-img" style="background-image:url('2.jpeg')"></div>
+        </div></div>
+      </div>
+
+      <div class="acc-row sr" style="--d:.21s">
+        <div class="acc-hd"><span class="acc-n">04</span><h3>Artist Promotions</h3><span class="acc-meta">Afrobeats · DJs · Label Events</span><span class="acc-plus">+</span></div>
+        <div class="acc-bd"><div class="acc-in">
+          <div class="acc-txt"><p>Hosting Afrobeats artists, DJs, and label nights. Full production, lighting rigs, and marketing partnerships.</p>
+          <ul><li>Full production support</li><li>Professional lighting rig</li><li>Promotion & marketing</li><li>Label & management welcome</li></ul></div>
+          <div class="acc-img" style="background-image:url('4.jpeg')"></div>
+        </div></div>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="about" class="s-dark s-about">
+    <div class="about-bg">SWITCH</div>
+    <div class="about-grid">
+      <div class="about-l">
+        <p class="eyebrow sr">/ Who We Are</p>
+        <h2 class="about-h sr" style="--d:.08s">More than<br><em>a night out.</em></h2>
+        <div class="alines">
+          <div class="aline sr" style="--d:.14s"><span>—</span><p>The UK's premium destination for Afrobeats culture, unforgettable weddings, and exclusive private events.</p></div>
+          <div class="aline sr" style="--d:.24s"><span>—</span><p>Bold music. World-class atmosphere. Energy from the moment you walk in.</p></div>
+          <div class="aline sr" style="--d:.34s"><span>—</span><p>Switch is where the culture lives. This is where moments are made.</p></div>
+        </div>
+      </div>
+      <div class="about-r sr" style="--d:.18s">
+        <div class="about-img-wrap">
+          <div class="about-img" style="background-image:url('6.jpg')"></div>
+          <div class="about-frame"></div>
+          <div class="about-badge"><b>500+</b><span>Capacity</span></div>
+        </div>
+        <div class="about-nums">
+          <div class="an"><b>10+</b><span>Years</span></div>
+          <div class="an"><b>100+</b><span>Events/yr</span></div>
+          <div class="an"><b>5★</b><span>Rated</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery" class="s-gallery">
+    <canvas id="seaCanvas"></canvas>
+    <div class="gal-bg-word">SWITCH</div>
+    <div class="gal-hd sr">
+      <p class="eyebrow">/ The Atmosphere</p>
+      <h2 class="sec-t">The Experience</h2>
+    </div>
+    <div class="gal-grid">
+      <div class="gal-card sr" style="--d:.04s;--r:-3deg">
+        <div class="gc-img" style="background-image:url('3.jpeg')"></div>
+        <div class="gc-lbl"><span>01</span><span>Main Room</span></div>
+      </div>
+      <div class="gal-card sr" style="--d:.13s;--r:2.5deg">
+        <div class="gc-img" style="background-image:url('one1.jpeg')"></div>
+        <div class="gc-lbl"><span>02</span><span>Afrobeats Night</span></div>
+      </div>
+      <div class="gal-card sr" style="--d:.22s;--r:-1.5deg">
+        <div class="gc-img" style="background-image:url('2.jpeg')"></div>
+        <div class="gc-lbl"><span>03</span><span>VIP Area</span></div>
+      </div>
+      <div class="gal-card sr" style="--d:.31s;--r:2deg">
+        <div class="gc-img" style="background-image:url('4.jpeg')"></div>
+        <div class="gc-lbl"><span>04</span><span>The Bar</span></div>
+      </div>
+      <div class="gal-card sr" style="--d:.40s;--r:-2.5deg">
+        <div class="gc-img" style="background-image:url('6.jpg')"></div>
+        <div class="gc-lbl"><span>05</span><span>The Stage</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="s-dark">
+    <div class="contact-grid">
+      <div class="contact-l sr">
+        <p class="eyebrow">/ Find Us</p>
+        <h2 class="contact-h">Come<br><em>experience it.</em></h2>
+        <p class="contact-desc">Switch is open every Friday and Saturday night, and available for weddings, private hire, VIP reservations and branded experiences throughout the week.</p>
+      </div>
+      <div class="contact-r sr" style="--d:.15s">
+        <div class="ci"><span>Location</span><p>London, United Kingdom</p></div>
+        <div class="ci"><span>Opening Hours</span><p>Friday & Saturday · 9PM – 4AM</p></div>
+        <div class="ci"><span>Enquiries</span><p><a href="mailto:hello@switchnightclub.co.uk">hello@switchnightclub.co.uk</a></p><p><a href="tel:+440000000000">+44 000 000 0000</a></p></div>
+        <div class="ci">
+          <span>Careers</span>
+          <p>Looking to join the Switch team?</p>
+          <div class="socials"><a href="careers.html">Apply for Staff Roles</a></div>
+        </div>
+        <div class="ci">
+          <span>Follow Switch</span>
+          <div class="socials"><a href="#">Instagram</a><a href="#">TikTok</a><a href="#">Facebook</a><a href="#">YouTube</a></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="ft-top">
+      <div class="ft-brand"><div class="ft-logo">SWITCH</div><p>UK's premium nightlife venue.<br>Afrobeats. Weddings. Private Events.</p></div>
+      <div class="ft-col"><p>Navigate</p><a href="#home">Home</a><a href="#events">Events</a><a href="#services">Book Events</a><a href="#about">About</a><a href="#gallery">Gallery</a><a href="careers.html">Careers</a></div>
+      <div class="ft-col"><p>Bookings</p><a href="#services">Weddings</a><a href="#services">Private Events</a><a href="#services">VIP Tables</a><a href="#services">Artist Nights</a></div>
+      <div class="ft-col"><p>Follow</p><a href="#">Instagram</a><a href="#">TikTok</a><a href="#">Facebook</a><a href="#">YouTube</a></div>
+    </div>
+    <div class="ft-bot"><span>2026 © Switch Nightclub. All rights reserved.</span><span>London, UK</span></div>
+  </footer>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
